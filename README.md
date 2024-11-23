@@ -7,6 +7,7 @@ Avec cette passerelle à moindre coût, ils peuvent être positionnés là où v
 Attention, seuls les appuis courts sont supportés.
 
 J'ai créé et mis en route ce système de passerelle il y a plus d'un an (août 2023) sans remarquer de problème de fonctionnement particulier.
+
 Je vie dans un appartement avec étage dans une résidence récente, la passerelle est connectée sur l'USB de la box TV (tout le temps sous tension) au rez-de-chaussée et capte les codes RF depuis toutes les pièces sans avoir besoin de répéteur.
 
 # 1. Synoptique
