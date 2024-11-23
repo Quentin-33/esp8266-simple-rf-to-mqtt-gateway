@@ -449,12 +449,21 @@ void loop() {
 
 La câblage de la passerelle et des répéteurs est identique et simple :
 
+
+| Broche SYN480R    | Broche ESP8266  | Description                     |
+|-------------------|-----------------|---------------------------------|
+| VCC               | 3.3V            | Alimentation (3.3V obligatoire)|
+| GND               | GND             | Masse                           |
+| DATA OUT          | GPIO4 (D2)      | Sortie des données RF           |
+| ANT               | -               | Antenne (17,3 cm)               |
+
+
 ![Câblage](https://github.com/Quentin-33/esp8266-simple-rf-to-mqtt-gateway/blob/main/IMAGES/Cablage.PNG)
 
 Pour améliorer la réception, vous pouvez ajouter une antenne de 17,3 cm (quart de longueur d'onde) à l'aide d'un câble silicone 26 awg à passer dans un morceau de gaine thermo pour la rigidifier (pas besoin de chauffer).
 J'ai utilisé le connecteur rapide de l'ESP, mais vous pouvez évidemment y souder directement les fils.
 
-S'il vous intéresse, le STL du boîtier à imprimer en 3D est disponible sur Thingiverse : LINK
+Si le boitier vous intéresse, les STL sont disponibles sur le dépôt (PLA/PLA+ ; buse 0,4mm ; couches 0,28 mm).
 
 
 
